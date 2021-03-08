@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# scala_language_trait_Map
+#
+DEF scala_language_trait_Map trait 0 40 Y Y 1 F N
+F0 "trait" 50 850 50 H V C CNN
+F1 "scala_language_trait_Map" 30 785 50 H V C CNN
+F2 "" 50 850 50 H I C CNN
+F3 "" 50 850 50 H I C CNN
+DRAW
+T 0 0 450 20 0 0 0 "Возвращает как вариант значение,
+связанное с ключом k в отображении
+ms, или None, если ключ не найден" Normal 0 R C
+T 0 -50 600 79 0 0 0 Поиски: Normal 0 C C
+T 0 -50 250 20 0 1 1 "(или после раскрытия ms apply k) Возвращает значение, 
+связанное с ключом k в отображении ms, 
+или выдает исключение, если ключ не найден" Normal 0 R B
+X get 1 400 450 100 L 50 50 1 1 B
+X ms(k) 2 400 250 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
